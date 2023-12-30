@@ -1,6 +1,8 @@
 # FreeCodeCamp
 A repository containing all the FreeCodeCamp Curriculum's projects made by myself. 
 
+### [Profile](https://www.freecodecamp.org/andresgarbarz)
+
 ### Progress
 | Course | State |
 | :---: | :---: |
