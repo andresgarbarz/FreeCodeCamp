@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	font-family: "Montserrat", sans-serif;
+}
+
+*::-webkit-scrollbar {
+	background-color: transparent;
+}
+
+*::-webkit-scrollbar-track {
+	border-radius: 10px;
+	border: 5px solid transparent;
+	box-shadow: inset 0 0 14px 14px transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	border: 5px solid transparent;
+	box-shadow: inset 0 0 14px 14px #bbbbbe;
+}
+*::-webkit-scrollbar-thumb:hover {
+	border-radius: 10px;
+	border: 5px solid transparent;
+	box-shadow: inset 0 0 14px 14px #d9d9dd;
+}
+
+*::-webkit-scrollbar {
+	width: 16px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+.phone {
+	overflow: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 80vh;
+	aspect-ratio: 9/16;
+	background-color: #032146;
+	border-radius: 1rem;
+	border: groove;
+	border-color: black;
+}
+.camera {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	margin: 0.25rem;
+	width: 0.625rem;
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+	border: groove;
+	border-color: black;
+}
+.dot {
+	background-color: rgb(125, 125, 125);
+	width: 0.0575rem;
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+	border: groove;
+	border-color: black;
+}
+.screen {
+	display: flex;
+	overflow-y: auto;
+	overflow-x: hidden;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(40, 40, 40, 0.75);
+	width: 95%;
+	flex: auto;
+	margin-bottom: 0.5rem;
+	height: max-content;
+	border-radius: 0.5rem;
+	border: groove;
+	border-color: black;
+	gap: 1rem;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: inherit;
+	background-color: rgb(14, 56, 97);
+}
+.avatar {
+	margin-top: 0.5rem;
+	width: 50%;
+	filter: brightness(75%);
+}
+.contact-info {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+.contact-info > div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0.25rem;
+	text-align: center;
+}
+.contact-info > div > input {
+	width: 80%;
+	text-align: center;
+}
+
+.contact-info > div > label {
+	color: white;
+	font-size: 100%;
+}
+.plabel {
+	color: white;
+}
+.btns {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	margin: 0.5rem;
+	width: 95%;
+}
+.btns > button {
+	font-size: 80%;
+}
+#clear-btn {
+	width: 7.5rem;
+	aspect-ratio: 3/1;
+	font-size: 1.25rem;
+	font-weight: 600;
+	background-color: rgb(165, 62, 42);
+	border-radius: 0.5rem;
+	color: white;
+}
+
+#user-input {
+	width: 15rem;
+	aspect-ratio: 8/1;
+	font-size: 1rem;
+}
+#results-div {
+	text-align: center;
+	font-size: 1rem;
+	color: white;
+	margin: 1rem;
+}
+#check-btn {
+	width: 7.5rem;
+	aspect-ratio: 3/1;
+	font-size: 1.25rem;
+	font-weight: 600;
+	background-color: rgb(0, 166, 255);
+	border-radius: 0.5rem;
+	color: white;
+}

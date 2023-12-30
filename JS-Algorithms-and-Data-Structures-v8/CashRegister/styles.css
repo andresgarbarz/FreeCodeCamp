@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+}
+h1 {
+	color: white;
+	text-align: center;
+}
+h5,
+p {
+	margin: 5%;
+}
+:root {
+	--money-green: rgb(40, 160, 40);
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: rgb(14, 56, 97);
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 25vw;
+	aspect-ratio: 1/1;
+}
+.pricetag {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	width: 50%;
+	aspect-ratio: 4/1;
+	border: 0.375rem solid var(--money-green);
+}
+.holder {
+	margin-left: -25%;
+	width: 10%;
+	height: 5%;
+	background-color: var(--money-green);
+}
+.register {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	aspect-ratio: 1.375/1;
+	border-top-left-radius: 10%;
+	border-top-right-radius: 10%;
+	background-color: var(--money-green);
+}
+.money {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 3.75%;
+	width: 100%;
+	aspect-ratio: 5/1;
+	background-color: var(--money-green);
+}
+.handle {
+	width: 7.5%;
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+	background-color: black;
+}
+.keys {
+	margin: 1rem;
+	width: 32.5%;
+}
+.keys > div {
+	gap: 5%;
+	margin-bottom: 5%;
+	display: flex;
+	flex-direction: row;
+}
+.keys > div > button {
+	background-color: black;
+	border-radius: 15%;
+	border: none;
+	width: 25%;
+	aspect-ratio: 1/1;
+}
+.changelist {
+	width: 70%;
+	margin: 5%;
+	border-radius: 5%;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+#cash {
+	width: 15rem;
+	aspect-ratio: 8/1;
+	font-size: 1rem;
+}
+#change-due {
+	text-align: center;
+	font-size: 1rem;
+	color: white;
+	margin: 1rem;
+}
+#purchase-btn {
+	width: 7.5rem;
+	aspect-ratio: 3/1;
+	font-size: 1.25rem;
+	font-weight: 600;
+	background-color: rgb(0, 166, 255);
+	border-radius: 0.5rem;
+	color: white;
+	margin-bottom: 1rem;
+}

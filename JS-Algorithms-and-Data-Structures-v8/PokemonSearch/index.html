@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>Pokemon Search App - Andrés Garbarz</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Pokemon Search App By Andrés Matías Garbarz</h1>
+			<div class="box">
+				<label for="">Search for Pokémon Name or ID:</label>
+				<div class="row">
+					<input type="search" id="search-input" required />
+					<button id="search-button">Search</button>
+				</div>
+				<div id="output">
+					<div class="row info">
+						<h6 id="pokemon-name"></h6>
+						<h6 id="pokemon-id"></h6>
+						<h6 id="weight"></h6>
+						<h6 id="height"></h6>
+					</div>
+					<div class="img" id="img"></div>
+					<div class="row" id="types"></div>
+					<div class="stats">
+						<table>
+							<th style="width: 65%">Base</th>
+							<th>Stats</th>
+							<tbody>
+								<tr>
+									<td>HP:</td>
+									<td id="hp"></td>
+								</tr>
+								<tr>
+									<td>Attack:</td>
+									<td id="attack"></td>
+								</tr>
+								<tr>
+									<td>Defense:</td>
+									<td id="defense"></td>
+								</tr>
+								<tr>
+									<td>Sp. Attack:</td>
+									<td id="special-attack"></td>
+								</tr>
+								<tr>
+									<td>Sp. Defense:</td>
+									<td id="special-defense"></td>
+								</tr>
+								<tr>
+									<td>Speed:</td>
+									<td id="speed"></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
