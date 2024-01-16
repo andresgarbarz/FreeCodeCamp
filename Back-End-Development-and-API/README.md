@@ -1,5 +1,5 @@
 # Back End Development and APIs
-### [Page]([https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/](https://www.freecodecamp.org/learn/back-end-development-and-apis/)) | [Certificate]([https://www.freecodecamp.org/certification/andresgarbarz/javascript-algorithms-and-data-structures](https://www.freecodecamp.org/certification/andresgarbarz/back-end-development-and-apis))
+### [Page](https://www.freecodecamp.org/learn/back-end-development-and-apis/) | [Certificate](https://www.freecodecamp.org/certification/andresgarbarz/back-end-development-and-apis)
 ## Description
 Until this point, you've only used JavaScript on the front end to add interactivity to a page, solve algorithm challenges, or build an SPA. But JavaScript can also be used on the back end, or server, to build entire web applications.
 
